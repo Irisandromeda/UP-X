@@ -1,0 +1,6 @@
+framework module Pods_UP_X {
+  umbrella header "Pods-UP-X-umbrella.h"
+
+  export *
+  module * { export * }
+}
