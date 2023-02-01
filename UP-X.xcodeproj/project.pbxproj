@@ -23,6 +23,8 @@
 		4FFA2691298B057400ACABD7 /* UILabel + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFA2690298B057400ACABD7 /* UILabel + Extension.swift */; };
 		4FFA2694298B062500ACABD7 /* UIButtton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFA2693298B062500ACABD7 /* UIButtton + Extension.swift */; };
 		4FFA2696298B072C00ACABD7 /* UIStackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFA2695298B072C00ACABD7 /* UIStackView + Extension.swift */; };
+		4FFA2698298B0F0C00ACABD7 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFA2697298B0F0C00ACABD7 /* GradientView.swift */; };
+		4FFA269A298B0FDF00ACABD7 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFA2699298B0FDF00ACABD7 /* GradientButton.swift */; };
 		75758061E2623795FF4D749A /* Pods_UP_X.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5222F942BD4407D88C066E1F /* Pods_UP_X.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +47,8 @@
 		4FFA2690298B057400ACABD7 /* UILabel + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + Extension.swift"; sourceTree = "<group>"; };
 		4FFA2693298B062500ACABD7 /* UIButtton + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButtton + Extension.swift"; sourceTree = "<group>"; };
 		4FFA2695298B072C00ACABD7 /* UIStackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extension.swift"; sourceTree = "<group>"; };
+		4FFA2697298B0F0C00ACABD7 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		4FFA2699298B0FDF00ACABD7 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
 		5222F942BD4407D88C066E1F /* Pods_UP_X.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UP_X.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CF3F6305251973E0191A24 /* Pods-UP-X.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UP-X.debug.xcconfig"; path = "Target Support Files/Pods-UP-X/Pods-UP-X.debug.xcconfig"; sourceTree = "<group>"; };
 		ED288A5D236F18782A4E2524 /* Pods-UP-X.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UP-X.release.xcconfig"; path = "Target Support Files/Pods-UP-X/Pods-UP-X.release.xcconfig"; sourceTree = "<group>"; };
@@ -134,6 +138,8 @@
 		4FB43B9D298945A30013EF21 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				4FFA2697298B0F0C00ACABD7 /* GradientView.swift */,
+				4FFA2699298B0FDF00ACABD7 /* GradientButton.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -356,9 +362,11 @@
 				4FB43B87298943920013EF21 /* AppDelegate.swift in Sources */,
 				4FB43BB0298951DE0013EF21 /* MenuViewController.swift in Sources */,
 				4FB43BAA298949370013EF21 /* GameModel.swift in Sources */,
+				4FFA269A298B0FDF00ACABD7 /* GradientButton.swift in Sources */,
 				4FFA2691298B057400ACABD7 /* UILabel + Extension.swift in Sources */,
 				4FFA2694298B062500ACABD7 /* UIButtton + Extension.swift in Sources */,
 				4FB43BA8298948890013EF21 /* GameViewController.swift in Sources */,
+				4FFA2698298B0F0C00ACABD7 /* GradientView.swift in Sources */,
 				4FB43BAC298949600013EF21 /* GamePresenter.swift in Sources */,
 				4FB43BA6298947700013EF21 /* ModulesBuilder.swift in Sources */,
 			);
