@@ -21,6 +21,7 @@
 		4FFA268A298B00C000ACABD7 /* SpaceGrotesk-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4FFA2689298B00C000ACABD7 /* SpaceGrotesk-Bold.ttf */; };
 		4FFA268D298B02E200ACABD7 /* UIFont + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFA268C298B02E200ACABD7 /* UIFont + Extension.swift */; };
 		4FFA2691298B057400ACABD7 /* UILabel + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFA2690298B057400ACABD7 /* UILabel + Extension.swift */; };
+		4FFA2694298B062500ACABD7 /* UIButtton + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFA2693298B062500ACABD7 /* UIButtton + Extension.swift */; };
 		75758061E2623795FF4D749A /* Pods_UP_X.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5222F942BD4407D88C066E1F /* Pods_UP_X.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		4FFA2689298B00C000ACABD7 /* SpaceGrotesk-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SpaceGrotesk-Bold.ttf"; sourceTree = "<group>"; };
 		4FFA268C298B02E200ACABD7 /* UIFont + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extension.swift"; sourceTree = "<group>"; };
 		4FFA2690298B057400ACABD7 /* UILabel + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel + Extension.swift"; sourceTree = "<group>"; };
+		4FFA2693298B062500ACABD7 /* UIButtton + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButtton + Extension.swift"; sourceTree = "<group>"; };
 		5222F942BD4407D88C066E1F /* Pods_UP_X.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UP_X.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6CF3F6305251973E0191A24 /* Pods-UP-X.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UP-X.debug.xcconfig"; path = "Target Support Files/Pods-UP-X/Pods-UP-X.debug.xcconfig"; sourceTree = "<group>"; };
 		ED288A5D236F18782A4E2524 /* Pods-UP-X.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UP-X.release.xcconfig"; path = "Target Support Files/Pods-UP-X/Pods-UP-X.release.xcconfig"; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 				4FFA2684298AFE4400ACABD7 /* UIImageView + Extension.swift */,
 				4FFA268C298B02E200ACABD7 /* UIFont + Extension.swift */,
 				4FFA2690298B057400ACABD7 /* UILabel + Extension.swift */,
+				4FFA2693298B062500ACABD7 /* UIButtton + Extension.swift */,
 			);
 			path = "UIKit + Extensions";
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 				4FB43BB0298951DE0013EF21 /* MenuViewController.swift in Sources */,
 				4FB43BAA298949370013EF21 /* GameModel.swift in Sources */,
 				4FFA2691298B057400ACABD7 /* UILabel + Extension.swift in Sources */,
+				4FFA2694298B062500ACABD7 /* UIButtton + Extension.swift in Sources */,
 				4FB43BA8298948890013EF21 /* GameViewController.swift in Sources */,
 				4FB43BAC298949600013EF21 /* GamePresenter.swift in Sources */,
 				4FB43BA6298947700013EF21 /* ModulesBuilder.swift in Sources */,
