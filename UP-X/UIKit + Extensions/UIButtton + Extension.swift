@@ -18,4 +18,18 @@ extension UIButton {
         self.titleLabel?.font = font
     }
     
+    func applyGradient(colors: [CGColor], startPoint: CGPoint, endPoint: CGPoint) {
+        self.backgroundColor = nil
+        self.layoutIfNeeded()
+        
+        let gradient = CAGradientLayer()
+        gradient.colors = colors
+        gradient.startPoint = startPoint
+        gradient.endPoint = endPoint
+        gradient.frame = .zero
+        gradient.cornerRadius = self.frame.height / 2
+        
+        self.layer.insertSublayer(gradient, at: 0)
+    }
+    
 }

@@ -6,6 +6,8 @@
 //
 
 import UIKit
+import SwiftUI
+import SnapKit
 
 class GameViewController: UIViewController {
     
@@ -14,12 +16,29 @@ class GameViewController: UIViewController {
     override func loadView() {
         super.loadView()
         
-        view.backgroundColor = .white
+        view.backgroundColor = .mainColor()
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        setupSwiftUIView()
+    }
+    
+    private func setupSwiftUIView() {
+        let controller = UIHostingController(rootView: GameView())
         
+        guard let gameView = controller.view else { return }
+        
+        gameView.backgroundColor = .clear
+        
+        view.addSubview(gameView)
+        
+        gameView.snp.makeConstraints { make in
+            make.topMargin.equalToSuperview().offset(110)
+            make.height.equalTo(400)
+            make.leading.equalToSuperview().offset(59)
+            make.trailing.equalToSuperview().offset(-20)
+        }
     }
 }
